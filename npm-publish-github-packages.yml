@@ -1,0 +1,34 @@
+
+Learn
+Tutorial
+Step 1 of 11
+Check out a Security Rules tutorial project
+
+Let's check some tutorial samples out from GitHub and some tools out of npm.
+
+Copy to Cloud Shell control -- in the snippets below, use this control to paste commands straight to the Cloud Shell prompt.
+
+    Set up a directory structure to organize tutorial project files plus your own project(s).
+
+    Note: As shown below, please create the following directory from the root of your Cloud Shell home directory.
+
+cd ~; mkdir rules-tutorial
+
+    Switch to the tutorial working directory.
+
+cd ~/rules-tutorial
+
+    Check out the tutorial project from Github.
+
+git clone \
+    https://github.com/firebase/quickstart-testing \
+    -b release
+
+    Change directory to the tutorial project.
+
+cd \
+    quickstart-testing/cs-walkthrough/
+
+    Install the Firebase Test SDK and a few more tools.
+
+npm --prefix=functions install
