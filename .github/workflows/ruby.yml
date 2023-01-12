@@ -8,7 +8,7 @@
 name: Ruby
 
 on: Nestie1208/npm-install-firebase
-  push: https://mobile.twitter.com/iFlow74575966
+  push: Notification 
     branches: [ main ]
   pull_request: Nestie1208/npm-install-firebase
     branches: [ main ]
